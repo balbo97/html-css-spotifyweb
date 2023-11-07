@@ -60,3 +60,30 @@ header{
     height: 200px;
     background-color: orange;
 }
+
+/* MEDIA QUERIES  */
+@media screen and (max-width:768px){
+    .col-17{
+        width: calc(100% / 4 - 20px);
+    }
+
+}
+
+@media screen and (max-width:576px){
+    .col-17{
+        width: calc(100% / 2 - 20px);
+    }
+
+}
+
+@media screen and (max-width:480px){
+    #side-bar{
+        width: 50px;
+    }
+
+    #main-bar{
+        width: calc(100vw - 50px);
+    }
+
+}
+
