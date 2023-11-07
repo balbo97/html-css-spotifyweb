@@ -27,6 +27,7 @@
     width: calc(100vw - 200px);
     background-color: rgb(1, 1, 47);
     color: white;
+    overflow-y: auto;
 }
 
 header{
@@ -34,4 +35,28 @@ header{
     width: 100%;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container{
+    width: 100%;
+    margin-top: 75px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100{
+    width: 100%;
+    margin: 10px;
+    height: 50px;
+    background-color: orange;
+}
+
+.col-17{
+    width: calc(100% / 6 - 20px);
+    margin: 10px;
+    height: 200px;
+    background-color: orange;
 }
