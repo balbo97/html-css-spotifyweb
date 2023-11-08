@@ -57,9 +57,14 @@ header{
     margin-top: 75px;
 }
 
+.container{
+    height: 100%;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
 }
 
 .col-100{
@@ -142,8 +147,13 @@ img[alt]{
     color: black;
 }
 
-.list{
+.overflow{
     overflow-y: auto;
+}
+
+.overflow-hidden{
+    overflow-y: hidden;
+
 }
 
 br{
@@ -156,6 +166,15 @@ button{
     border: 1px solid white;
     border-radius: 30px;
     color: white
+}
+
+.col-100.block.overflow-hidden{
+    height: 50%;
+}
+
+.playlist{
+    overflow-y: auto;
+    height: 100%;
 }
 
 
