@@ -6,7 +6,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: grey;
 }
 
 #top{
@@ -91,8 +91,8 @@ header{
 }
 
 .col-17{
-    width: calc(100% / 6 - 20px);
-    margin: 10px;
+    width: calc(100% / 6);
+    padding: 10px;
 }
 
 .logo{
@@ -128,7 +128,8 @@ content ul.flex.wrap{
 }
 
 img{
-    width: 100%;
+    width: 95%;
+    height: 100%;
 }
 
 .text-center{
@@ -195,6 +196,47 @@ button{
     height: 100%;
 }
 
+h1, h2, h3{
+    color: white;
+}
+
+.white{
+    color: white;
+}
+
+/* MAIN */
+.img{
+    position: relative;
+    width: 100%;
+
+}
+
+.overlay{
+    display: none;
+    position: absolute;
+    font-size: 5vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 1;
+}
+
+.img:hover .overlay{
+    display: block;
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+
+.img:hover .background{
+    display: block;
+}
 /* FOOTER  */
 .sinister{
     max-width: 50px;
@@ -218,10 +260,6 @@ button{
     font-size: 20px;
 }
 
-.fa-play{
-   
-    
-}
 
 .col-40:last-child{
     width: 100%;
@@ -235,18 +273,30 @@ button{
     margin: 0 10px;
  }
 
+ /* HOVER  */
+li:hover{
+    color: white;
+ }
+
+ .content-side-bar:hover{
+    color: white;
+ }
+
+ button:hover{
+    font-size: 15px;
+ }
 
 /* MEDIA QUERIES  */
 @media screen and (max-width:768px){
     .col-17{
-        width: calc(100% / 4 - 20px);
+        width: calc(100% / 4);
     }
 
 }
 
 @media screen and (max-width:576px){
     .col-17{
-        width: calc(100% / 2 - 20px);
+        width: calc(100% / 2);
     }
 
 }
