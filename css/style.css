@@ -72,6 +72,24 @@ header{
     margin: 10px;
 }
 
+.col-50{
+    width: 50%;
+}
+
+.col-30{
+    width: calc(30% - 20px);
+    margin: 10px;
+    
+}
+
+.col-40{
+    width: calc(40% - 20px);
+    margin: 10px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
 .col-17{
     width: calc(100% / 6 - 20px);
     margin: 10px;
@@ -176,6 +194,46 @@ button{
     overflow-y: auto;
     height: 100%;
 }
+
+/* FOOTER  */
+.sinister{
+    max-width: 50px;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.fa-folder{
+    margin-right: 10px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.play-station > i{
+    padding: 0 5px;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.fa-play{
+   
+    
+}
+
+.col-40:last-child{
+    width: 100%;
+}
+
+.items-end{
+    justify-content: end;
+}
+
+ .margin-10{
+    margin: 0 10px;
+ }
 
 
 /* MEDIA QUERIES  */
