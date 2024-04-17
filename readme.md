@@ -1,3 +1,4 @@
+   ![Schermata 2024-04-17 alle 16 56 05](https://github.com/balbo97/html-css-spotifyweb/assets/145669273/1af2c0fd-901e-423a-a45f-fc215a9dbbed)
 Eccoci arrivati a Spotify Web, la nostra prima web app! Il layout di questo esercizio è diverso da quelli che abbiamo riprodotto fino ad ora: il contenuto della pagina non potrà mai uscire dalla viewport, proprio come una app! In allegato troverete le screenshot per vedere il layout anche nelle versioni responsive, inoltre troverete dei video per quel che riguarda il comportamento hover, responsive e chiusura del browser in altezza.
 Consigli
 1. Questo esercizio si svolgerà in più giorni quindi come sempre pensate prima a far funzionare le macroaree a blocchi colorati, se quelle funzionano allora passate al dettaglio.
